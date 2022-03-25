@@ -8,7 +8,7 @@ There are two directories in the repository:
 The directory "src" contains the FORTRAN source files, "main.F90" and "module_file.F90", and a makefile.
 The "main.F90" file contains the source code for solving the GEP using the
 SLEPc library and "module_file.F90" contains a subroutine to read in the input data files.
-The details about the code can be found it their respective header files and the comments therein.
+The details about the code can be found in their respective header files and the comments therein.
 
 The directory "example_freq_100MHz_eps_4-1j_ur_1" contains a set of examples for the solution of the GEP.
 The directory contains the subdirectory called "data" which has the input files: 
