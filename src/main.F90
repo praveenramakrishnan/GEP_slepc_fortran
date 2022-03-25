@@ -7,6 +7,17 @@
 !Many parameters can be set from the commandline as mention in the SLEPc manual
 !(https://slepc.upv.es/)
 
+!Meanings of relevant variable names
+!A, B are the input matrices of the GEP
+!n is the size of the problem
+!nev is the number of requested eigenvalues
+!ncv is the size of the maximum size of the solution subspace
+!maxit is maximum number of iterations for convergence
+!tol is the value of tolerance level for convergence
+!nconv is the number of converged eigenvalues
+!kr and ki are used to retrieve the real and imaginary parts of an eigenvalue respectively
+!xr and xi are used to retrieve the real and imaginary parts of an eigenvector respectively
+
 #include <slepc/finclude/slepceps.h>
 program main
     use slepceps
