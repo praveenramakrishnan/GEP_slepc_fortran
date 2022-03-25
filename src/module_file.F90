@@ -1,3 +1,5 @@
+!This is module file contating the subroutine "CompMatrixM" to read in the
+!complex matrix from data files contating the real and imaginary parts
 module module_file
 implicit none
 

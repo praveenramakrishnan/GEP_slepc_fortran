@@ -1,5 +1,11 @@
 !Author: Praveen Kalarickel Ramakrishnan
-!Date: 2022-03-21
+!This program solves the generalized eigenvalue problem (GEP) for the matrix pencil (A, B)
+!The programs calls the subroutine "CompMatrixM" to read the input data files:
+!"real_parts.txt", "imag_parts.txt", "weight_matrix.txt", "zero_matrix.txt"
+!The output contains the eigen vectors and eigenvalues 
+!along with some additional information about the colver
+!Many parameters can be set from the commandline as mention in the SLEPc manual
+!(https://slepc.upv.es/)
 
 #include <slepc/finclude/slepceps.h>
 program main
